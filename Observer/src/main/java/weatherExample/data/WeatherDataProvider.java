@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
  */
 public class WeatherDataProvider implements ContinuousUpdater,DataSource {
 
-    private static final int DELAY_TIME=5000;
+    private static final int DELAY_TIME=500;
     private final ExecutorService executor=Executors.newSingleThreadExecutor();
     private final ConcurrentLinkedQueue<Observer<WeatherData>> observerList;
     private WeatherData updatedData;
