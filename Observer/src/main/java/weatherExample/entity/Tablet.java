@@ -1,4 +1,4 @@
-package WeatherExample.entity;
+package weatherExample.entity;
 
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;

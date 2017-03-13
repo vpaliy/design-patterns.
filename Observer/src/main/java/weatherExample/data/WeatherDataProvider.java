@@ -1,7 +1,7 @@
-package WeatherExample.data;
+package weatherExample.data;
 
 
-import WeatherExample.entity.WeatherData;
+import weatherExample.entity.WeatherData;
 import com.sun.istack.internal.NotNull;
 import core.Observer;
 import java.util.Random;

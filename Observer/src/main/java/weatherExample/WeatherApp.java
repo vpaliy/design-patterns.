@@ -1,9 +1,9 @@
-package WeatherExample;
+package weatherExample;
 
-import WeatherExample.data.WeatherDataProvider;
-import WeatherExample.entity.SmartPhone;
-import WeatherExample.entity.SmartWatch;
-import WeatherExample.entity.Tablet;
+import weatherExample.data.WeatherDataProvider;
+import weatherExample.entity.SmartPhone;
+import weatherExample.entity.SmartWatch;
+import weatherExample.entity.Tablet;
 
 public class WeatherApp {
     public static void main(String[] args){

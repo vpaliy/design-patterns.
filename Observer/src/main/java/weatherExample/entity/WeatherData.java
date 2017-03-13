@@ -1,4 +1,4 @@
-package WeatherExample.entity;
+package weatherExample.entity;
 
 /*
  * Just a data wrapper

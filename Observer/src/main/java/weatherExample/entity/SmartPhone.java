@@ -1,9 +1,9 @@
-package WeatherExample.entity;
+package weatherExample.entity;
 
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
 
-public class SmartWatch extends Device {
+public class SmartPhone extends Device {
 
     @Nullable
     private WeatherData data;
@@ -19,7 +19,7 @@ public class SmartWatch extends Device {
     public void showWeather() {
         if(data!=null){
             log(data);
-            //some fancy UI for a smart watch
+            //some fancy UI for a phone
         }
     }
 }
