@@ -3,8 +3,8 @@ package core;
 import com.sun.istack.internal.NotNull;
 
 /**
- *
- * @param <T>
+ * This interface represents an emitter of data
+ * @param <T> type of data, usually a wrapper
  */
 public interface Observable<T> {
     void register(@NotNull Observer<T> observer);

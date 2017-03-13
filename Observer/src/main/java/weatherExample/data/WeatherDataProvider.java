@@ -9,6 +9,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Emitter of data
+ */
 public class WeatherDataProvider implements ContinuousUpdater,DataSource {
 
     private static final int DELAY_TIME=5000;
