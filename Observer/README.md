@@ -30,7 +30,7 @@ all its dependents are notified and automatically updated.
   
 # Known issues #
 
-1. How triggers the update method?<br>
+1. Who triggers the update method?<br>
    Basically, we have two options:<br>
   
   * We can update the observes after the subject's state has been changed. The advantage of this approach is that clients don't need to remember to call the `notify` method manually. The disadvantage is that several consecutive operations will cause several consecutive updates, which may be inefficient.<br>
