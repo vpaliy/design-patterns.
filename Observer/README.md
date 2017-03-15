@@ -35,4 +35,4 @@ all its dependents are notified and automatically updated.
   
   * We can update the observes after the subject's state has been changed. The advantage of this approach is that clients don't need to remember to call the `notify` method manually. The disadvantage is that several consecutive operations will cause several consecutive updates, which may be inefficient.<br>
   
-  * We can make clients be responsible for calling the update method. The advantage is that we can code more efficient comparing to previous approach. However, the client have an added responsibility to trigger the update.
+  * We can make clients be responsible for calling the update method. The advantage is that we can make code more efficient comparing to previous approach. However, the client have an added responsibility to trigger the update.
